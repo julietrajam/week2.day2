@@ -52,7 +52,8 @@ public class DuplicateLead {
 		//Click the first record
 		Thread.sleep(5000);
 		
-		WebElement firstlead=driver.findElement(By.xpath("(//div[@class='x-grid3-cell-inner x-grid3-col-firstName']/a)[1]"));
+		WebElement firstlead=driver.findElement(By.xpath("By.xpath("//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a"));
+								 //(//div[@class='x-grid3-cell-inner x-grid3-col-firstName']/a)[1]"));
 		String leadId=firstlead.getText();
 		System.out.println("Lead Id :"+leadId);
 		
