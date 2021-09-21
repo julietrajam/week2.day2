@@ -57,7 +57,10 @@ public class DeleteLead {
 			driver.findElement(By.linkText("Find Leads")).click();
 
 			//Click First Lead
-			WebElement deleteRow = driver.findElement(By.xpath("(//div[@class='x-grid3-cell-inner x-grid3-col-partyId'])[1]/a"));
+			WebElement deleteRow = driver.findElement(By.xpath("By.xpath("//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a"));
+									   //(//div[@class='x-grid3-cell-inner x-grid3-col-partyId'])[1]/a"));
+		
+		
 			String deleteData = deleteRow.getText();
 			System.out.println("Deleted Data:" + deleteData);
 
